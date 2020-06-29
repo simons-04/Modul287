@@ -1,0 +1,78 @@
+/*tag properties*/
+body {
+    min-height: 100%;
+    background-size: cover;
+    background-color: black;
+}
+
+header {
+    margin: 16em 0 10em 0;
+}
+
+main {
+    margin: 0 0 7em 0;
+}
+
+footer {
+    height: 7em;
+    margin: 0;
+    background-image: url("../content/logo.svg");
+    background-repeat: repeat-x;
+}
+
+p {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*class properties*/
+.intro-big{
+    font-size: 80px;
+}
+
+.intro-small {
+    font-size:60px;
+    margin: 0 0 5em 0;
+}
+
+.skyline {
+    height: 7em;
+    margin: 0;
+    padding:0;
+    background-image: url("../content/logo.svg");
+    background-repeat: repeat-x;
+}
+
+.row {
+    margin: 5em 0;
+}
+
+.special {
+    margin: 2em 0 7em 0;
+}
+
+.video-row {
+    margin: 5em 0 0 0;
+}
+
+.carousel {
+    border: white solid 7px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: rgba(0,0,0,0.5);
+    width: 7%;
+}
+
+.col-9 {
+    height: 29rem;
+}
+
+.text-slide {
+    text-align: left;
+    font-size: 60px;
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+}
